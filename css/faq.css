@@ -1,0 +1,7 @@
+h1{font-size: larger;}
+h2{color: #ccf; margin: 0 0 .2em 0; font-size: small;}
+h2 a{ color: #492177;}
+p {text-align: justify;}
+p a  {color:  #492177;}
+p a:hover {color:  #ccf; list-style-type: none;}
+p a:after  {color:  #492177;}

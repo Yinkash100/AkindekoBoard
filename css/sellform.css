@@ -1,0 +1,36 @@
+
+/* 
+    Created on : 10-Mar-2017, 15:22:52
+    Author     : Yinkash
+*/
+
+
+form {
+        font-size: auto;
+      
+    }
+
+
+label:focus {
+
+        color: #492177;}
+
+
+textArea{display: block;}
+input, select {    
+    font-size: 80%;
+    color: #492177;
+    border: .5px solid #989898;
+    border-radius: 5px;
+    display: inline-block;
+    }
+    .help, #error{
+        font-size: small; color: red; font-style: italic;
+    }
+input:focus {
+background-color: #ffffff;
+border: .5px solid #b1e1e4;}
+
+
+
+

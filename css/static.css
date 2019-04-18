@@ -1,0 +1,136 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07-Mar-2017, 13:07:21
+    Author     : YINKASH
+*/
+html{width: 100%; margin-left: auto; margin-right: auto; }
+body    {font-family: Arial, Helvetica, Verdana; }
+a {font-weight: bold; list-style: none; text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+@media screen and (max-width: 650px) {
+  header {
+    font-size: 1.5em;
+  }
+
+  .progress-bar {
+    display: none;
+  }
+
+  section.form {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .company-page {
+    display: none;
+  }
+
+  .company-name {
+    display: block;
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #sidebar {
+    display: none;
+}
+
+  header {
+    padding: 0px;
+  }
+}
+
+@media screen and (min-width: 451px) {
+  section.form {
+    font-size: 2em;
+  }
+
+  .company-name {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 651px) {
+
+  #searchbar {width: 350px; height: 35px; }
+
+}
+
+
+
+
+#header{
+    clear: both;
+    display: block; 
+    background-color: #492177;
+}
+#header a{margin:5px 10px 1px 0px; text-decoration: none; color: #fff;  }
+#header a:hover{color: #fff; background: #b1e1e4;}
+#header a:after{color: #fff;}
+
+
+#topline{ display: inline; color:#fff;  float: right; }
+
+#menu {   display: block; }
+
+
+
+#verticalMenu {margin: 0 1em 0 1em; padding: 1em 0 1em 0;   clear: none; }
+#verticalMenu li{margin-top: 2em; margin-left: -5px; display: inline;
+                  padding: 0px 1em 0px 1em; border: 1px  solid white; 
+                  border-radius: 10px; border-top-color: #492177; 
+                  border-top-left-radius: 0; 
+                  border-top-right-radius:  0;  }
+
+
+
+#horizontalMenu {background: #492177; position: absolute;   clear:none; }
+#horizontalMenu li { width: 150px; height: 30px;  padding: 5px;   text-align: center; border:0.8px solid #fff;
+                     border-bottom-right-radius: 3px; border-bottom-left-radius: 3px;  margin: 2px; text-align: center; border-top: none;} 
+
+#logo{ margin: .1em 0.05em 1em 0; display: block; float: left; clear: both;}
+#headlogo {display: block; clear: both;}
+#header h1, i  {clear: none; display: block; margin-left: .5em; margin-bottom: 0; }
+#header form {clear: both; display: inline; align:left;}
+#header form label { display: inline; }
+#mainsearchbar { }
+ 
+
+#searchbar {width: 350px; height: 35px; }
+
+
+#sidebar {
+    clear: none;
+    display: inline;
+    color: #492177;
+    font-size: large;
+    width:25%; 
+    float: left;
+}
+
+
+#sidebar a:hover{
+    padding: inherit;
+    text-decoration: none;
+    border: #fff;
+    color: #fff;
+    background: #492177;
+    border: 0;
+}
+#sidebar a{padding: inherit; list-style: none;}
+
+#footer {clear: both; display: block; background-color: #ccf; 
+         text-align: center; position: relative; color: #492177;}
+#footer a:hover{color: #fff;}
+#footer a:after{color: #fff;}
+#footer a{color: #fff;}
+
+
+
+

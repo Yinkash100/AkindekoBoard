@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Accommodation | Akindeko Board</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/sellform.css"/>
+    </head>
+    <body>
+        <form action="#" method="post">
+            <ul>
+                <li><label>Where is the lodge located:
+                        <select name="location">
+                            <option>--Select--</option>
+                            <option>North Gate</option>
+                            <option>South Gate</option>
+                            <option>West Gate</option>
+                        </select>
+                    </label>
+                </li>
+                
+                <li>
+                    <label>Type of Apartment</label>
+                    <select name="apartment type">
+                        <option>--Select--</option>
+                        <option>A Room</option>
+                        <option>Self Contain</option>
+                        <option>Flat</option>
+                        <option>others (Specify)</option>
+                    </select><br/>
+                    <textarea name="apartment" rows="2" cols="50" >others</textarea>
+                </li>
+                <li>
+                    <label>Price (per year):
+                        <input id="rent" autocomplete="on" name="price" type="number"/>
+                    </label>
+                </li>
+                <li>
+                    <label>Lodge Name(if Any):
+                        <input id="price" autocomplete="on" name="price" type="number"/>
+                    </label>
+                </li>
+                
+                
+                    <li>
+                        <label>Lodge Address: 
+                            <textarea name="address" rows="3" cols="50" > Detailed Address with landmark (E.g 7, Summonu Street, State-line, North Gate, Beside CAC Church, Opposite Heritage museum )</textarea>
+                        </label>
+                    </li>
+                
+                
+                <li>
+                    <label><input type="radio" name="negotiability" value="Negotiable" checked="checked"/>Negotiable </label>
+                    <label><input type="radio" name="negotiability" value="Non-negotiable" />Non-negotiable</label>
+                </li>
+                <li>
+                    <label>Description(optional)<br>
+                        <textarea name="Product Description" rows="10" cols="70">Give a Brief Description of the Lodge!</textarea>
+                    </label>
+                </li>
+                <li><label>Upload pictures of the lodge/room<br/>
+                        <input type="file"  name="photo" ><br/>
+                        <input type="file"  name="photo" ><br/>
+                        <input type="file"  name="photo" ><br/>
+                        <small>(Posts with pictures easily find buyers)</small><br>
+                    </label>
+                </li>
+                    
+                <li>
+                    <label><input type="submit" value="Post To Board " onclick="postToBoard();"></label>
+                    <label><input type="reset"></label>
+                </li>
+            </ul>
+        </form>
+       
+
+    </body>
+</html>
